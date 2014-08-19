@@ -1,6 +1,6 @@
 {
   "name": "callbackmanager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple Asynchronous Callback Manager",
   "main": "lib/callbackmanager.js",
   "scripts": {
