@@ -1,0 +1,27 @@
+{
+  "name": "callbackmanager",
+  "version": "1.0.0",
+  "description": "Simple Asynchronous Callback Manager",
+  "main": "lib/callbackmanager.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iameugenejo/callbackmanager.git"
+  },
+  "keywords": [
+    "async",
+    "callback"
+  ],
+  "author": "Eugene Jo <iameugenejo@gmail.com> (https://github.com/iameugenejo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iameugenejo/callbackmanager/issues"
+  },
+  "homepage": "https://github.com/iameugenejo/callbackmanager",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.4"
+  }
+}
