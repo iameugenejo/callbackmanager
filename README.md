@@ -39,7 +39,7 @@ callbackmanager
 ####Handle error : Pass the error from an async callback to the complete callback
 	cm.wait();
 	setTimeout(function() {
-		cm.done(throw new Error("uh oh!"));
+		cm.done(new Error("uh oh!"));
 	}, 200);
 
 ####Abort : Abort the manager process so that the final callback doesn't get executed
